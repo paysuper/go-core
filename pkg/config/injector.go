@@ -3,8 +3,8 @@
 package config
 
 import (
-	"github.com/ProtocolONE/go-core/v2/pkg/invoker"
 	"github.com/google/wire"
+	"github.com/paysuper/go-core/v2/pkg/invoker"
 )
 
 // Build returns instance implemented Configurator interface with resolved dependencies

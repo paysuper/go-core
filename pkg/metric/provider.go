@@ -2,11 +2,11 @@ package metric
 
 import (
 	"context"
-	"github.com/ProtocolONE/go-core/v2/pkg/config"
-	"github.com/ProtocolONE/go-core/v2/pkg/invoker"
-	"github.com/ProtocolONE/go-core/v2/pkg/logger"
 	"github.com/cactus/go-statsd-client/statsd"
 	"github.com/google/wire"
+	"github.com/paysuper/go-core/v2/pkg/config"
+	"github.com/paysuper/go-core/v2/pkg/invoker"
+	"github.com/paysuper/go-core/v2/pkg/logger"
 	promreporter "github.com/uber-go/tally/prometheus"
 	tallystatsd "github.com/uber-go/tally/statsd"
 	"net/http"

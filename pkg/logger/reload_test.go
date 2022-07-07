@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ProtocolONE/go-core/v2/pkg/config"
-	"github.com/ProtocolONE/go-core/v2/pkg/invoker"
+	"github.com/paysuper/go-core/v2/pkg/config"
+	"github.com/paysuper/go-core/v2/pkg/invoker"
 )
 
 // DATA RACE in realoding

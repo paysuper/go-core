@@ -1,4 +1,4 @@
-module github.com/ProtocolONE/go-core/v2
+module github.com/paysuper/go-core/v2
 
 go 1.12
 

@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/ProtocolONE/go-core/v2/pkg/logger"
+	"github.com/paysuper/go-core/v2/pkg/logger"
 	"github.com/uber-go/tally"
 )
 

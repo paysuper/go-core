@@ -2,10 +2,10 @@ package tracing
 
 import (
 	"context"
-	"github.com/ProtocolONE/go-core/v2/pkg/config"
-	"github.com/ProtocolONE/go-core/v2/pkg/logger"
 	"github.com/google/wire"
 	"github.com/opentracing/opentracing-go"
+	"github.com/paysuper/go-core/v2/pkg/config"
+	"github.com/paysuper/go-core/v2/pkg/logger"
 	jaegerConfig "github.com/uber/jaeger-client-go/config"
 	"sync"
 )

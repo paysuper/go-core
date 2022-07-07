@@ -2,8 +2,8 @@ package logger
 
 import (
 	"context"
-	"github.com/ProtocolONE/go-core/v2/pkg/invoker"
 	"github.com/mitchellh/mapstructure"
+	"github.com/paysuper/go-core/v2/pkg/invoker"
 	"reflect"
 )
 

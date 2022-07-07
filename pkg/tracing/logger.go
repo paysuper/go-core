@@ -1,7 +1,7 @@
 package tracing
 
 import (
-	"github.com/ProtocolONE/go-core/v2/pkg/logger"
+	"github.com/paysuper/go-core/v2/pkg/logger"
 	jaegerLogger "github.com/uber/jaeger-client-go/log"
 )
 

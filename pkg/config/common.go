@@ -2,9 +2,9 @@ package config
 
 import (
 	"fmt"
-	"github.com/ProtocolONE/go-core/v2/pkg/invoker"
 	"github.com/gurukami/typ/v2"
 	"github.com/mitchellh/mapstructure"
+	"github.com/paysuper/go-core/v2/pkg/invoker"
 	"github.com/pkg/errors"
 	"github.com/shurcooL/graphql/ident"
 	"os"

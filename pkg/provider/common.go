@@ -1,9 +1,9 @@
 package provider
 
 import (
-	"github.com/ProtocolONE/go-core/v2/pkg/logger"
-	"github.com/ProtocolONE/go-core/v2/pkg/metric"
-	"github.com/ProtocolONE/go-core/v2/pkg/tracing"
+	"github.com/paysuper/go-core/v2/pkg/logger"
+	"github.com/paysuper/go-core/v2/pkg/metric"
+	"github.com/paysuper/go-core/v2/pkg/tracing"
 )
 
 type AwareSet struct {

@@ -2,7 +2,7 @@ package metric
 
 import (
 	"context"
-	"github.com/ProtocolONE/go-core/v2/pkg/invoker"
+	"github.com/paysuper/go-core/v2/pkg/invoker"
 	"github.com/uber-go/tally"
 	promreporter "github.com/uber-go/tally/prometheus"
 	tallystatsd "github.com/uber-go/tally/statsd"

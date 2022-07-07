@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
-	"github.com/ProtocolONE/go-core/v2/pkg/invoker"
 	"github.com/mitchellh/mapstructure"
+	"github.com/paysuper/go-core/v2/pkg/invoker"
 	"github.com/spf13/viper"
 	"sync"
 )
@@ -47,7 +47,7 @@ func (p *MockConfigurator) UnmarshalKey(key string, rawVal interface{}, hook ...
 	)
 	return p.viper.UnmarshalKey(key, rawVal, viper.DecodeHook(
 		mapstructure.ComposeDecodeHookFunc(
-			hook...
+			hook...,
 		),
 	))
 }
