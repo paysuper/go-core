@@ -1,4 +1,4 @@
-module github.com/paysuper/go-core/v2
+module github.com/paysuper/go-core
 
 go 1.12
 

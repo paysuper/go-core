@@ -3,8 +3,8 @@ package logger
 import (
 	"context"
 	"github.com/google/wire"
-	"github.com/paysuper/go-core/v2/pkg/config"
-	"github.com/paysuper/go-core/v2/pkg/invoker"
+	"github.com/paysuper/go-core/pkg/config"
+	"github.com/paysuper/go-core/pkg/invoker"
 	"sync"
 )
 

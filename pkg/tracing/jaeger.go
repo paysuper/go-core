@@ -2,7 +2,7 @@ package tracing
 
 import (
 	"context"
-	"github.com/paysuper/go-core/v2/pkg/logger"
+	"github.com/paysuper/go-core/pkg/logger"
 	"github.com/pkg/errors"
 	"github.com/uber/jaeger-client-go/config"
 )

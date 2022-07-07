@@ -3,7 +3,7 @@ package config
 import (
 	"context"
 	"github.com/mitchellh/mapstructure"
-	"github.com/paysuper/go-core/v2/pkg/invoker"
+	"github.com/paysuper/go-core/pkg/invoker"
 	"github.com/spf13/viper"
 	"sync"
 )

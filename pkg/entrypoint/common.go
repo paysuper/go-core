@@ -2,10 +2,10 @@ package entrypoint
 
 import (
 	"context"
-	"github.com/paysuper/go-core/v2/pkg/config"
-	"github.com/paysuper/go-core/v2/pkg/logger"
-	"github.com/paysuper/go-core/v2/pkg/metric"
-	"github.com/paysuper/go-core/v2/pkg/tracing"
+	"github.com/paysuper/go-core/pkg/config"
+	"github.com/paysuper/go-core/pkg/logger"
+	"github.com/paysuper/go-core/pkg/metric"
+	"github.com/paysuper/go-core/pkg/tracing"
 )
 
 type WithKeyInitial string

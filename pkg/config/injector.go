@@ -4,7 +4,7 @@ package config
 
 import (
 	"github.com/google/wire"
-	"github.com/paysuper/go-core/v2/pkg/invoker"
+	"github.com/paysuper/go-core/pkg/invoker"
 )
 
 // Build returns instance implemented Configurator interface with resolved dependencies

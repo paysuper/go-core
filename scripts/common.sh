@@ -7,7 +7,7 @@ else
 fi
 
 GO_IMAGE=p1hub/go
-GO_IMAGE_TAG=1.12
+GO_IMAGE_TAG=1.13
 DIND_IMAGE=p1hub/dind
 DIND_IMAGE_TAG=latest
 GO_PKG=github.com/paysuper/go-core
